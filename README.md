@@ -17,7 +17,7 @@ Hi 👋, Here is some glips of what i'm working on:
 	<img width="50" cellspacing="10" src="https://user-images.githubusercontent.com/25181517/189716630-fe6c084c-6c66-43af-aa49-64c8aea4a5c2.png" alt="Material UI" title="Material UI"/>
 	<img width="50" cellspacing="10" src="https://user-images.githubusercontent.com/25181517/192108372-f71d70ac-7ae6-4c0d-8395-51d8870c2ef0.png" alt="Git" title="Git"/>
 </div>
-- 🌱 I’m currently learning ...  
+- 🌱 I’m currently learning ...
 <div>
 	<img width="50" cellspacing="10" src="https://user-images.githubusercontent.com/25181517/192107856-aa92c8b1-b615-47c3-9141-ed0d29a90239.png" alt="GraphQL" title="GraphQL"/>
 	<img width="50" cellspacing="10" src="https://user-images.githubusercontent.com/25181517/183568594-85e280a7-0d7e-4d1a-9028-c8c2209e073c.png" alt="Node.js" title="Node.js"/>
@@ -32,7 +32,8 @@ Hi 👋, Here is some glips of what i'm working on:
 	<img width="50" cellspacing="10" src="https://user-images.githubusercontent.com/25181517/179090274-733373ef-3b59-4f28-9ecb-244bea700932.png" alt="Jenkins" title="Jenkins"/>
 	<img width="50" cellspacing="10" src="https://github.com/marwin1991/profile-technology-icons/assets/76662862/2481dc48-be6b-4ebb-9e8c-3b957efe69fa" alt="Linux" title="Linux"/>
 </div>
+
 - 💬 Ask me about ... Development, Deployment, Personal Growth, Life of a Software Engineer, IT | Tech
 - 📫 How to reach me: ... kumarsachinguri@gmail.com | https://www.linkedin.com/in/sachin-guri/
-- 😄 Pronouns: ... he/him
+- 😄 Pronouns: ... he/him 
 -->
