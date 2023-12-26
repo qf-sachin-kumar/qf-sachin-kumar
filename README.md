@@ -36,5 +36,5 @@ Hi 👋, Here are the glimpse of what i'm working on:
 </div>
 
 - 💬 Ask me about ... Development, Deployment, Personal Growth, Life of a Software Engineer, IT | Tech
-- 📫 How to reach me: ... Gmail: <a href="mailto:kumarsachinguri@gmail.com">Sachin Guri </a>, Linkedin: <a href="https://www.linkedin.com/in/sachin-guri/">Sachin Guri</a>
+- 📫 How to reach me: ... <a href="mailto:kumarsachinguri@gmail.com">gamil</a>, <a href="https://www.linkedin.com/in/sachin-guri/">linkedin</a>
 - 😄 Pronouns: ... he/him 
