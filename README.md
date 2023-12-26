@@ -38,4 +38,3 @@ Hi 👋, Here are the glimpse of what i'm working on:
 - 💬 Ask me about ... Development, Deployment, Personal Growth, Life of a Software Engineer, IT | Tech
 - 📫 How to reach me: ... kumarsachinguri@gmail.com | https://www.linkedin.com/in/sachin-guri/
 - 😄 Pronouns: ... he/him 
--->
