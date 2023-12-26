@@ -1,4 +1,4 @@
-Hi 👋, Here is some glips of what i'm working on:
+Hi 👋, Here is some glimpse of what i'm working on:
 
 - 🔭 I’m currently working on ...
 <div>
