@@ -36,11 +36,6 @@ Hi 👋, Here are the glimpse of what i'm working on:
 </div>
 
 - 💬 Ask me about ... Development, Deployment, Personal Growth, Life of a Software Engineer, IT | Tech
-- 📫 How to reach me: ... <a href="mailto:kumarsachinguri@gmail.com"><svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-    <path d="m17.418 3.623-.018-.008a6.713 6.713 0 0 0-2.4-.569V2h1a1 1 0 1 0 0-2h-2a1 1 0 0 0-1 1v2H9.89A6.977 6.977 0 0 1 12 8v5h-2V8A5 5 0 1 0 0 8v6a1 1 0 0 0 1 1h8v4a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-4h6a1 1 0 0 0 1-1V8a5 5 0 0 0-2.582-4.377ZM6 12H4a1 1 0 0 1 0-2h2a1 1 0 0 1 0 2Z"/>
-  </svg></a>, <a href="https://www.linkedin.com/in/sachin-guri/"><svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 15 15">
-    <path fill-rule="evenodd" d="M7.979 5v1.586a3.5 3.5 0 0 1 3.082-1.574C14.3 5.012 15 7.03 15 9.655V15h-3v-4.738c0-1.13-.229-2.584-1.995-2.584-1.713 0-2.005 1.23-2.005 2.5V15H5.009V5h2.97ZM3 2.487a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z" clip-rule="evenodd"/>
-    <path d="M3 5.012H0V15h3V5.012Z"/>
-  </svg>
-    </a>
+- 📫 How to reach me: ... <a href="mailto:kumarsachinguri@gmail.com">![icons8-mail-24](https://github.com/qf-sachin-kumar/qf-sachin-kumar/assets/116907974/620f5cae-3ff1-4700-a50c-c958a3255c42)
+</a>, <a href="https://www.linkedin.com/in/sachin-guri/">![icons8-linkedin-32](https://github.com/qf-sachin-kumar/qf-sachin-kumar/assets/116907974/2fcf087f-969f-44d7-8c8a-58f1c3546335)</a>
 - 😄 Pronouns: ... he/him 
