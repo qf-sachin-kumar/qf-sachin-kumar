@@ -41,7 +41,7 @@ Hi 👋, Here is some glips of what i'm working on:
 	<code><img width="50" src="https://user-images.githubusercontent.com/25181517/182534006-037f08b5-8e7b-4e5f-96b6-5d2a5558fa85.png" alt="Kubernetes" title="Kubernetes"/></code>
 	<code><img width="50" src="https://user-images.githubusercontent.com/25181517/183868728-b2e11072-00a5-47e2-8a4e-4ebbb2b8c554.png" alt="CI/CD" title="CI/CD"/></code>
 	<code><img width="50" src="https://user-images.githubusercontent.com/25181517/179090274-733373ef-3b59-4f28-9ecb-244bea700932.png" alt="Jenkins" title="Jenkins"/></code>
-	<code><img width="50" src="https://github.com/marwin1991/profile-technology-icons/assets/76662862/2481dc48-be6b-4ebb-9e8c-3b957efe69fa" alt="Linux" title="Linux"/></code>
+	<img width="50" src="https://github.com/marwin1991/profile-technology-icons/assets/76662862/2481dc48-be6b-4ebb-9e8c-3b957efe69fa" alt="Linux" title="Linux"/>
 </div>
 - 💬 Ask me about ... Development, Deployment, Personal Growth, Life of a Software Engineer, IT | Tech
 - 📫 How to reach me: ... kumarsachinguri@gmail.com | https://www.linkedin.com/in/sachin-guri/
