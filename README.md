@@ -23,6 +23,6 @@ Hi 👋, Here are the glimpse of what i'm working on:
 
 - 💬 Ask me about ... Development, Deployment, Personal Growth, Life of a Software Engineer, IT | Tech
 - 📫 How to reach me: ...
-  <a href="mailto:kumarsachinguri@gmail.com">![icons8-mail-24](https://github.com/qf-sachin-kumar/qf-sachin-kumar/assets/116907974/620f5cae-3ff1-4700-a50c-c958a3255c42)
-</a><a href="https://www.linkedin.com/in/sachin-guri/">![icons8-linkedin-32](https://github.com/qf-sachin-kumar/qf-sachin-kumar/assets/116907974/2fcf087f-969f-44d7-8c8a-58f1c3546335)</a>
+  <a href="mailto:kumarsachinguri@gmail.com">![Gmail]
+</a><a href="https://www.linkedin.com/in/sachin-guri/">![LinkedIn]</a>
 - 😄 Pronouns: ... he/him 
