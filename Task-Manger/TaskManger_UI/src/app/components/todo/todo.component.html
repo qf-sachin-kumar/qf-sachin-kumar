@@ -1,0 +1,32 @@
+<div class="filter">
+  <div class="filter-100">
+    <todo-filter class="filter"></todo-filter>
+  </div>
+  <button type="button" class="btn btn-add button" [routerLink]="['/todo-form']" routerLinkActive="router-link-active" >
+    <svg class="button__icon">
+      <use xlink:href="../../../assets/icons/sprite.svg#icon-add"></use>
+    </svg>
+    <span class="button__text">
+      Add Todo
+    </span>
+  </button>
+</div>
+<div class="card">
+  <div class="card-header">
+    <svg class="icon">
+      <use xlink:href="../../../assets/icons/sprite.svg#icon-trash-2"></use>
+    </svg>
+    <svg class="icon">
+      <use xlink:href="../../../assets/icons/sprite.svg#icon-edit"></use>
+    </svg>
+  </div>
+  <div class="card-body">
+    <p>Title: Title of the todo</p>
+    <p>Description: Description of the Todo</p>
+  </div>
+  <div class="card-footer">
+    <a [routerLink]="['/todo-form']" routerLinkActive="router-link-active" >
+      View Todo
+    </a>
+  </div>
+</div>

@@ -1,0 +1,18 @@
+<nav class="nav-bar">
+  <div class="logo">Todo</div>
+  <ul class="menu">
+    <li class="menu-items" [routerLink]="['/todo']" routerLinkActive="active">
+      <svg class="icon">
+        <use xlink:href="../../../assets/icons/sprite.svg#icon-home"></use>
+      </svg>
+      <span>Home</span>
+    </li>
+    <li class="menu-items" [routerLink]="['/todo-form']" routerLinkActive="active" >
+      <svg class="icon">
+        <use xlink:href="../../../assets/icons/sprite.svg#icon-assignment"></use>
+      </svg>
+      <span>Todo-Form</span>
+    </li>
+    <!-- <li class="menu-items"></li> -->
+  </ul>
+</nav>
