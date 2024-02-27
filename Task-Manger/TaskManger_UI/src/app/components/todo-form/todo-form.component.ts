@@ -26,7 +26,7 @@ export class TodoFormComponent {
   // public get Tasks(): FormGroup[] { return (this.todoForm.get('tasks') as FormArray).controls as FormGroup[]; }
 
   onSubmit() {
-
+    console.log(this.todoForm.value);
   }
 
 
