@@ -1,3 +1,9 @@
-.container {
+.container-fluid{
+  display: grid;
+  grid-template-rows: auto 1fr auto;
   height: 100vh;
+}
+
+.container {
+  overflow-y: auto;
 }

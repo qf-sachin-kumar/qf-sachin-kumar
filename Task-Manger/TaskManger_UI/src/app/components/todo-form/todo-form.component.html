@@ -1,10 +1,89 @@
 <div class="container">
   <h2 class="heading">
-    Create todo item
+    Create Todo item
   </h2>
 
 
-  <form novalidate (ngSubmit)="onSubmit()">
-    
+  <form novalidate (ngSubmit)="onSubmit()" [formGroup]="todoForm" class="form-container">
+    <!-- todoTitle -->
+    <div class="form-group">
+      <label for="title" class="form-label">
+        <span>Todo Title</span>
+        <input type="text" name="title" id="title" class="form-control" formControlName="todoTitle">
+      </label>
+    </div>
+    <!-- todoDescription -->
+    <div class="form-group">
+      <label for="description" class="form-label">
+        <span>Todo Description</span>
+        <input type="text" name="description" id="description" class="form-control" formControlName="todoDescription">
+      </label>
+    </div>
+    <!-- dueDate -->
+    <div class="form-group">
+      <label for="dueDate" class="form-label">
+        <span>Todo Due Date</span>
+        <input type="date" name="dueDate" id="dueDate" class="form-control" formControlName="dueDate">
+      </label>
+    </div>
+    <!-- status -->
+    <div class="form-group">
+      <label for="status" class="form-label">
+        <span>Todo Status</span>
+        <input type="text" name="status" id="status" class="form-control" formControlName="status">
+      </label>
+    </div>
+
+    <!-- tasks -->
+    @if (Tasks.controls.length > 0) {
+    <fieldset class="task-container" formArrayName="tasks">
+      @for (task of Tasks.controls; track $index) {
+      <p for="Tasks" class="task-label">Task {{ $index + 1 }}</p>
+      <div class="task-group" formGroupName="{{$index}}">
+        <!-- taskTitle -->
+        <div class="form-group">
+          <label for="title" class="form-label">
+            <span>task Title</span>
+            <input type="text" name="title" id="title" class="form-control" formControlName="taskTitle">
+          </label>
+        </div>
+        <!-- taskDescription -->
+        <div class="form-group">
+          <label for="description" class="form-label">
+            <span>task Description</span>
+            <input type="text" name="description" id="description" class="form-control"
+              formControlName="taskDescription">
+          </label>
+        </div>
+        <!-- dueDate -->
+        <div class="form-group">
+          <label for="dueDate" class="form-label">
+            <span>task Due Date</span>
+            <input type="date" name="dueDate" id="dueDate" class="form-control" formControlName="dueDate">
+          </label>
+        </div>
+        <!-- status -->
+        <div class="form-group">
+          <label for="isCompleted" class="form-label">
+            <span>Is Completed</span>
+            <input type="text" name="isCompleted" id="isCompleted" class="form-control" formControlName="isCompleted">
+          </label>
+        </div>
+      </div>
+      }
+    </fieldset>
+    }
+
+
+    <!-- add task -->
+    <div class="form-group add-button">
+      <button type="button" class="btn btn__addTask" (click)="addTask()">Add New Task</button>
+    </div>
+
+
+    <!-- Button -->
+    <div class="form-group">
+      <input type="submit" value="Submit" class="btn btn__submit">
+    </div>
   </form>
 </div>

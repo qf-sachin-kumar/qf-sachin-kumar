@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { AbstractControl, FormControl, FormGroup, ReactiveFormsModule, ValidationErrors, ValidatorFn, Validators } from '@angular/forms';
+import { AbstractControl, FormArray, FormControl, FormGroup, ReactiveFormsModule, ValidationErrors, ValidatorFn, Validators } from '@angular/forms';
 import { Status } from '../../model/enums/status.enum';
 
 @Component({
@@ -18,9 +18,12 @@ export class TodoFormComponent {
     todoDescription: new FormControl('', Validators.required),
     createdDate: new FormControl(new Date(), Validators.required),
     dueDate: new FormControl(''),
-    tasks: new FormControl([], Validators.required),
-    status: new FormControl('', this.statusValidator)
+    tasks: new FormArray([], Validators.required),
+    status: new FormControl('', this.statusValidator),
   });
+
+  public get Tasks(): FormArray { return this.todoForm.get('tasks') as FormArray; }
+  // public get Tasks(): FormGroup[] { return (this.todoForm.get('tasks') as FormArray).controls as FormGroup[]; }
 
   onSubmit() {
 
@@ -36,6 +39,19 @@ export class TodoFormComponent {
       }
       return null;
     }
+  }
+
+  public addTask() {
+    const taskForm: FormGroup = new FormGroup({
+      // todoId
+      // taskId
+      taskTitle: new FormControl('', Validators.required),
+      taskDescription: new FormControl('', Validators.required),
+      dueDate: new FormControl('', Validators.required),
+      isCompleted: new FormControl(false, Validators.required)
+    });
+
+    this.Tasks.push(taskForm);
   }
 
 }
