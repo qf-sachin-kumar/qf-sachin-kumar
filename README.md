@@ -1,7 +1,5 @@
-Hi 👋, Here are the glimpse of what i'm working on:
+# Hi there 👋
+🔭 I’m currently working on:<br>  Improving web-based solutions and implementing features with latest tech.<br><br>👯 I’m looking to collaborate on:<br>  Fullstack projects.<br><br>🌱 I’m currently learning:<br>  Automation/CICD, Jenkins and Scripting.<br><br>💬 Ask me about:<br>  Angular, Typescript, and any general software development questions.<br><br>⚡ Fun fact:<br>  I like building myself++.
 
-- 🔭 I’m currently working on ... Angular, .net Core, TypeScript, C#, SQL Server
-- 🌱 I’m currently learning ... CI/CD, Jenkins, Docker
-- 💬 Ask me about ... Development, Personal Growth, Life of a Software Engineer, IT/Tech
-- 📫 How to reach me: ... Gmail: kumarsachinguri, Linkedin: in/kumarsachinguri
-- 😄 Pronouns: ... he/him
+## 🌐 Socials:
+![LinkedIn](https://www.linkedin.com/in/kumarsachinguri/)
