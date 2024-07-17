@@ -39,19 +39,19 @@ Follow the steps below to get started.
 
 2. Install Angular CLI globally:
 
-  ```bash
-  npm i @angular/cli@13.3.11 -g
-  ```
+   ```bash
+   npm i @angular/cli@13.3.11 -g
+   ```
 
-3. Install project dependencies with force flag:
+4. Install project dependencies with force flag:
    
-  ```bash
-  npm i --force
-  ```
+   ```bash
+   npm i --force
+   ```
 
-4. Serve the application and open it in your default browser:
+5. Serve the application and open it in your default browser:
 
-  ```bash
-  ng s -o
-  ```
+   ```bash
+   ng s -o
+   ```
 
