@@ -12,9 +12,10 @@ Follow the steps below to get started.
 ## Prerequisites
 
 - Clone the Repository
-  ```bash
+  
+  ```bash  
   git clone https://github.com/QualfonAppDev/SurveyTool.git
-
+  ```
 
 ## Installation Steps
 
@@ -34,16 +35,23 @@ Follow the steps below to get started.
 
    ```bash
    nvm use 14.15.0
+   ```
 
 2. Install Angular CLI globally:
+
   ```bash
   npm i @angular/cli@13.3.11 -g
+  ```
 
 3. Install project dependencies with force flag:
+   
   ```bash
   npm i --force
+  ```
 
 4. Serve the application and open it in your default browser:
+
   ```bash
   ng s -o
+  ```
 
