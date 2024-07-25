@@ -1,0 +1,11 @@
+<form novalidate [formGroup]="question()" class="form">
+  <mat-form-field appearance="outline" class="form-input">
+    <mat-label>Question Title</mat-label>
+    <input matInput placeholder="Question Title" formControlName="label" required>
+    @if (question().get('label')?.invalid) {
+    <mat-error>Please enter Question Title</mat-error>
+    }
+  </mat-form-field>
+
+  <button mat-button class="btn btn-add__option">Add Option</button>
+</form>

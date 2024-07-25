@@ -1,0 +1,14 @@
+.form {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.btn {
+  &-add__option {
+    justify-self: flex-start;
+  }
+}
+.options {
+  display: grid;
+  grid-template-columns: 1fr;
+}

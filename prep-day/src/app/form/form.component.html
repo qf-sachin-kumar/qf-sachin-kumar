@@ -1,0 +1,30 @@
+<form class="form-section" novalidate [formGroup]="form()">
+
+  <mat-form-field appearance="outline" class="form-input">
+    <mat-label>Section Title</mat-label>
+    <input matInput placeholder="Section Title" formControlName="name" required>
+    @if (form().get('name')?.invalid) {
+    <mat-error>Please enter Form Name</mat-error>
+    }
+  </mat-form-field>
+
+  <button mat-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+    <mat-icon>add</mat-icon> Add Question
+  </button>
+  <mat-menu #menu="matMenu">
+    @for (item of questionMenu; track $index) {
+    <button mat-menu-item (click)="addQuestion(item.type)">
+      <mat-icon>{{ item.icon }}</mat-icon>
+      <span>{{ item.label }}</span>
+    </button>
+    }
+  </mat-menu>
+
+  <section class="question-container">
+
+    @for (question of questions.controls; track $index) {
+    <app-question [question]="question" />
+    }
+  </section>
+
+</form>

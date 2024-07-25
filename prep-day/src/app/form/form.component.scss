@@ -1,0 +1,25 @@
+.form-section {
+  // background-color: orangered;
+  max-width: 52rem;
+  margin: 0 auto;
+  padding: 2rem;
+
+  background-color: #eee;
+  border-radius: .3rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.form-input {
+  width: 100%;
+}
+
+.question-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+}
