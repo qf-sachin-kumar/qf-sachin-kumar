@@ -20,11 +20,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\model\model.csproj" />
+    <ProjectReference Include="..\service\service.csproj" />
   </ItemGroup>
 
 </Project>
